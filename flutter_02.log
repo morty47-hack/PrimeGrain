@@ -1,0 +1,76 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome
+
+## exception
+
+DartDevelopmentServiceException: DartDevelopmentServiceException: Failed to start Dart Development Service
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.38.5, on Microsoft Windows [Version
+    10.0.22000.2538], locale en-KE) [1,435ms]
+    [32m•[39m Flutter version 3.38.5 on channel stable at
+      C:\Users\Admin\AppData\Local\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision f6ff1529fd (9 weeks ago), 2025-12-11 11:50:07
+      -0500
+    [32m•[39m Engine revision 1527ae0ec5
+    [32m•[39m Dart version 3.10.4
+    [32m•[39m DevTools version 2.51.1
+    [32m•[39m Feature flags: enable-web, enable-linux-desktop,
+      enable-macos-desktop, enable-windows-desktop, enable-android,
+      enable-ios, cli-animations, enable-native-assets,
+      omit-legacy-version-file, enable-lldb-debugging
+
+[32m[✓][39m Windows Version (11 Pro 64-bit, 21H2, 2009) [5.0s]
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version
+    35.0.1) [5.9s]
+    [32m•[39m Android SDK at C:\Users\Admin\AppData\Local\Android\sdk
+    [32m•[39m Emulator version 35.3.11.0 (build_id 12836668) (CL:N/A)
+    [31m✗[39m Flutter requires Android SDK 36 and the Android BuildTools 28.0.3
+      To update the Android SDK visit
+      https://flutter.dev/to/windows-android-setup for detailed
+      instructions.
+    [33m![39m Some Android licenses not accepted. To resolve this, run: flutter
+      doctor --android-licenses
+
+[32m[✓][39m Chrome - develop for the web [751ms]
+    [32m•[39m Chrome at C:\Program Files
+      (x86)\Google\Chrome\Application\chrome.exe
+
+[33m[!][39m Visual Studio - develop Windows apps (Visual Studio Enterprise 2019
+    16.11.41) [747ms]
+    [32m•[39m Visual Studio at C:\Program Files (x86)\Microsoft Visual
+      Studio\2019\Enterprise
+    [32m•[39m Visual Studio Enterprise 2019 version 16.11.35325.158
+    [31m✗[39m Visual Studio is missing necessary components. Please re-run the
+      Visual Studio installer for the "Desktop development with C++"
+      workload, and include these components:
+        MSVC v142 - VS 2019 C++ x64/x86 build tools
+         - If there are multiple build tool versions available, install
+         the latest
+        C++ CMake tools for Windows
+        Windows 10 SDK
+
+[32m[✓][39m Connected device (3 available) [490ms]
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows
+      [Version 10.0.22000.2538]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome
+      144.0.7559.133
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge
+      144.0.3719.115
+
+[32m[✓][39m Network resources [1,563ms]
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 2 categories.
+```
